@@ -1,4 +1,5 @@
 const path = require('path');
+const http = require('http');
 const express = require('express');
 const socketIO = require('socket.io');
 
@@ -13,9 +14,6 @@ app.use(express.static(publicPath));
 
 app.listen(port, () =>{
     console.log('Server is up at port ' + port);
-    console.log('Änderung');
-
-    console.log('Änderung2');
 
 
 })
