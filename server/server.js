@@ -1,5 +1,6 @@
 const path = require('path');
-const express = require('express')
+const express = require('express');
+const socketIO = require('socket.io');
 
 // Public Path zusammenbauen
 // leitet die Anfrage an den Server auf Public-Ordner um -> index.html
